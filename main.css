@@ -1,0 +1,7 @@
+iframe {
+  width: 90vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
