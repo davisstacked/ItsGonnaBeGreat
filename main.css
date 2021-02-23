@@ -1,7 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 iframe {
   width: 90vw;
   height: 90vh;
+}
+
+.screenplay {
   justify-content: center;
   align-items: center;
   text-align: center
+}
+
+/* MOVIE POSTER */
+
+.movie-poster {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hotpink;
+}
+
+.movie-poster-image {
+  width: 30vw;
 }
