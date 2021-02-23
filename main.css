@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+/* NAV */
+.navbar-brand {
+  font-family: 'Rock Salt', cursive;
+}
+
+
+/* SCREENPLAY */
+
 .screenplay-container {
   width: 100%;
 }
