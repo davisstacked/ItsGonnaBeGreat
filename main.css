@@ -4,15 +4,19 @@
   padding: 0;
 }
 
-iframe {
-  width: 90vw;
-  height: 90vh;
+.screenplay-container {
+  width: 100%;
 }
 
 .screenplay {
   justify-content: center;
   align-items: center;
-  text-align: center
+  text-align: center;
+}
+
+.screenplay-pdf {
+  width: 95vw;
+  height: 95vh;
 }
 
 /* MOVIE POSTER */
