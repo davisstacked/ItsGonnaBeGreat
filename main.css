@@ -38,3 +38,53 @@
 .movie-poster-image {
   width: 30vw;
 }
+
+/* PROJECTS */
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background-color: hotpink;
+  height: 90vh;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem;
+  width: 80%;
+  justify-content: space-evenly;
+  text-align:center;
+  /* background-color: hotpink;
+  padding: 20px 20px */
+}
+
+.card {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
+}
+
+.card-title {
+  font-family: 'Rock Salt', cursive;
+  line: height 1.5em;
+}
+
+.project-header {
+  font-family: 'Rock Salt', cursive;
+}
+
+
