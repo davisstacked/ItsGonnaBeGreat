@@ -150,12 +150,60 @@ span {
 }
 
 /* ABOUT */
-i {
-  font-size: 2rem;
+
+.about-section {
+  display: flex;
+  flex-direction: column;
 }
 
-.email {
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+  grid-gap: 2rem;
+  background-image: url('./images/griffith.jpg'); 
+  margin-bottom: 2rem;
+}
 
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: darkslategrey;
+}
+
+.table-read {
+  padding: 5rem;
+  background-color: #feb8e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links a i {
+  font-size: 3rem;
+}
+
+.social-image {
+  width: 100%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-image {
+  width: 60%;
+  border: 
+}
+
+.description p {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* MEDIA QUERIES */
@@ -163,5 +211,11 @@ i {
 @media (max-width: 1000px) {
   .movie-poster-image {
     width: 60vw;
+  }
+  .about-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .table-image {
+    width: 100%;
   }
 }
