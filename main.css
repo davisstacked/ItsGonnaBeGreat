@@ -11,15 +11,25 @@
 
 /* SCREENPLAY */
 
-.screenplay-container {
-  width: 100%;
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: cream;
 }
 
 .screenplay {
+  width:80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .screenplay {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} */
 
 .screenplay-pdf {
   width: 95vw;
@@ -28,15 +38,21 @@
 
 /* MOVIE POSTER */
 
-.movie-poster {
+.movie-header {
+  display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  width: 100%;
   background-color: hotpink;
 }
 
 .movie-poster-image {
   width: 30vw;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 40vh;
+  padding: 20px;
 }
 
 /* PROJECTS */
