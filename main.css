@@ -95,3 +95,8 @@
   font-family: 'Rock Salt', cursive;
 }
 
+@media (max-width: 1000px) {
+  .movie-poster-image {
+    width: 60vw;
+  }
+}
