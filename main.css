@@ -9,6 +9,10 @@
   font-family: 'Rock Salt', cursive;
 }
 
+.navbar-brand:hover {
+  text-decoration: underline hotpink;
+}
+
 .leah-button,
 .nav-link:hover {
   background-color: #f7a8f8;
@@ -40,6 +44,7 @@
 
 span {
   font-family: 'Rock Salt', cursive;
+  text-decoration: underline hotpink;
 }
 
 /* MOVIE HEADER */
