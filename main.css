@@ -9,7 +9,8 @@
   font-family: 'Rock Salt', cursive;
 }
 
-.leah-button {
+.leah-button,
+.nav-link:hover {
   background-color: #f7a8f8;
   color: black;
   /* filter: drop-shadow(0 0 0.75rem hotpink);
@@ -20,10 +21,11 @@
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
   box-shadow: .2rem .2rem hotpink;
+  font-weight: bold;
+  /* font-size: 1.3rem; */
 }
 
 .leah-button:hover,
-.nav-link:hover,
 .dropdown-item:hover {
   background-color: hotpink;
   color: white;
@@ -121,6 +123,10 @@ span {
   text-align: center;
 }
 
+.card:hover {
+  box-shadow: .3rem .2rem yellow;
+}
+
 .card-img-top {
   height: 35%;
 }
@@ -128,12 +134,14 @@ span {
 .card-body {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5rem;
 }
 
 .card-title {
   font-family: 'Rock Salt', cursive;
-  line: height 1.5em;
+  line-height: 1.5rem;
 }
 
 .project-header {
