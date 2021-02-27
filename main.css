@@ -42,7 +42,7 @@
 }
 
 .movie-poster-image {
-  width: 30vw;
+  width: 40vw;
 }
 
 .yellow {
@@ -78,6 +78,10 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
+}
+
+.card-img-top {
+  height: 35%;
 }
 
 .card-body {
