@@ -9,6 +9,37 @@
   font-family: 'Rock Salt', cursive;
 }
 
+.leah-button {
+  background-color: #f7a8f8;
+  color: black;
+  /* filter: drop-shadow(0 0 0.75rem hotpink);
+  -webkit-filter: drop-shadow(0 0 0.75rem ); */
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: .2rem .2rem hotpink;
+}
+
+.leah-button:hover,
+.nav-link:hover,
+.dropdown-item:hover {
+  background-color: hotpink;
+  color: white;
+  filter: drop-shadow(0 0 0.75rem crimson);
+  -webkit-filter: drop-shadow(0 0 0.75rem crimson);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+span {
+  font-family: 'Rock Salt', cursive;
+}
+
 /* MOVIE HEADER */
 
 .main-container {
@@ -58,6 +89,8 @@
   justify-content: start;
   align-items:center;
   text-align:center;
+  height: 80%;
+  padding-bottom: 20px;
   background-color: #feb8e6;
 }
 
@@ -68,10 +101,17 @@
   justify-content: space-evenly;
   text-align:center;
   height: 100%;
+  padding-bottom: 20px;
+  border-radius: .5rem;
   background-color: hotpink;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
 }
 
 .card {
+  background-color: cream;
   position: relative;
   margin-top: 20px;
   padding: 10px;
@@ -100,6 +140,8 @@
   font-family: 'Rock Salt', cursive;
   margin: 5rem;
 }
+
+/* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
   .movie-poster-image {
