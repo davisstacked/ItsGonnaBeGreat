@@ -149,6 +149,15 @@ span {
   margin: 5rem;
 }
 
+/* ABOUT */
+i {
+  font-size: 2rem;
+}
+
+.email {
+
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
