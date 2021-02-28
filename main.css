@@ -108,7 +108,7 @@ span {
   justify-content: space-evenly;
   text-align:center;
   height: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
   border-radius: .5rem;
   background-color: hotpink;
   -webkit-border-radius: .5rem;
@@ -120,8 +120,8 @@ span {
 .card {
   background-color: cream;
   position: relative;
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 1rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -222,5 +222,8 @@ figure {
   }
   .table-image {
     width: 100%;
+  }
+  .screenplay {
+    width: 95%;
   }
 }
