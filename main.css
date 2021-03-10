@@ -212,6 +212,32 @@ figure {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+/* CHARACTERS - ABOUT */
+.main-characters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #feb8e6;
+  /* height: 100vh; */
+}
+
+.description {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 100%;
+  background-color: #fbfbf8;
+  padding: 2rem;
+  text-align: center;
+}
+
+.description p {
+  font-family: 'Rock Salt';
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
@@ -226,5 +252,14 @@ figure {
   }
   .screenplay {
     width: 95%;
+  }
+
+  .description {
+    width: 95vw;
+  }
+
+  .description p {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
