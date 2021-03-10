@@ -134,6 +134,8 @@ span {
 
 .card-img-top {
   height: 35%;
+  border: darkslategrey 2px solid;
+  box-shadow: .2rem .2rem darkslategrey;
 }
 
 .card-body {
