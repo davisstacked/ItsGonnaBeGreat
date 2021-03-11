@@ -139,28 +139,29 @@ span {
   justify-content: space-evenly;
   text-align:center;
   height: 100%;
-  padding-bottom: 1rem;
+  padding: .2rem;
   border-radius: .5rem;
   background-color: hotpink;
   -webkit-border-radius: .5rem;
   -moz-border-radius: .5rem;
   -ms-border-radius: .5rem;
   -o-border-radius: .5rem;
+  border: 1px darkslategrey solid;
 }
 
 .card {
   background-color: cream;
+  filter: drop-shadow(5px 5px 4px #4444dd);
   position: relative;
   margin-top: 1rem;
   padding: 1.5rem;
+  border:;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-}
-
-.card:hover {
-  box-shadow: .3rem .2rem yellow;
+  -webkit-filter: drop-shadow(5px 5px 4px #4444dd);
+  border: 1px darkslategrey solid;
 }
 
 .card-img-top {
@@ -197,15 +198,14 @@ span {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 2rem;
-  /* grid-gap: 2vw; */
+  padding: 2rem 0 2rem 0;
   background-image: url('./images/griffith.jpg'); 
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   justify-content: center;
   align-items: center;
 }
 
-.about-me {
+/* .about-me {
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -213,7 +213,7 @@ span {
   justify-content: center;
   font-size: 1.5rem;
   color: darkslategrey;
-}
+} */
 
 .table-read {
   padding: 5rem;
@@ -240,6 +240,12 @@ figure {
 
 .table-image {
   width: 60%;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+
 }
 
 .description p {
@@ -285,11 +291,6 @@ figure {
     width: 95%;
   }
 
-  .description {
-    width: 70vw;
-    padding: 1rem;
-  }
-
   .description p {
     font-size: 1rem;
     line-height: 2rem;
@@ -330,7 +331,7 @@ figure {
   } 
 
   .social-image {
-    width: 55vw;
+    width: 50vw;
   }
 
   .table-image {
