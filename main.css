@@ -198,9 +198,11 @@ span {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem;
-  grid-gap: 2rem;
+  grid-gap: 2vw;
   background-image: url('./images/griffith.jpg'); 
   margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-me {
@@ -270,13 +272,26 @@ figure {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1500px) {
+
+  .social-image {
+    width: 35vw;
+    margin-top: 2rem;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+  }
+
+} 
+
 @media (max-width: 1000px) {
   .movie-poster-image {
     width: 60vw;
   }
-  .about-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
+
   .table-image {
     width: 100%;
   }
@@ -285,12 +300,13 @@ figure {
   }
 
   .description {
-    width: 95vw;
+    width: 70vw;
+    padding: 2rem;
   }
 
   .description p {
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
   }
 
   .main-header {
@@ -317,5 +333,13 @@ figure {
   .movie-logline {
     margin: 0 auto;
     padding: 5px;
+  }
+
+  .social-image {
+    width: 55vw;
+  }
+
+  .table-image {
+    width: 90vw;
   }
 }
