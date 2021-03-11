@@ -154,6 +154,7 @@ span {
   filter: drop-shadow(5px 5px 4px #4444dd);
   position: relative;
   margin-top: 1rem;
+  margin-right: 1px;
   padding: 1.5rem;
   border:;
   display: flex;
