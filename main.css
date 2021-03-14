@@ -110,9 +110,13 @@ span {
   height: 98vh;
 }
 
-
 .movie-poster-image {
-  width: 30vw;
+  width: 25rem;
+  height: 29rem;
+} 
+
+.movie-extras {
+  height: 24rem;
 }
 
 .yellow {
@@ -208,16 +212,6 @@ span {
   align-items: center;
 }
 
-/* .about-me {
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  text-align: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  color: darkslategrey;
-} */
-
 .table-read {
   padding: 5rem;
   background-color: #feb8e6;
@@ -287,7 +281,8 @@ figure {
 
 @media (max-width: 1000px) {
   .movie-poster-image {
-    width: 60vw;
+    height: 25%;
+    width: 70%;
   }
 
   .table-image {
@@ -310,10 +305,6 @@ figure {
     justify-content: center;
   }
 
-  .movie-poster-image {
-    width: 90vw;
-  }
-
   .movie-logline h3 {
     line-height: 3rem;
   }
@@ -325,7 +316,7 @@ figure {
 
   .movie-logline {
     margin: 0 auto;
-    padding: 5px;
+    /* padding: 5px; */
   }
 
   /* ABOUT PAGE */
