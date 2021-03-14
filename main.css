@@ -113,6 +113,7 @@ span {
 .movie-poster-image {
   width: 25rem;
   height: 29rem;
+  border: 1px darkslategrey solid;
 } 
 
 .movie-extras {
@@ -282,7 +283,7 @@ figure {
 @media (max-width: 1000px) {
   .movie-poster-image {
     height: 25%;
-    width: 70%;
+    width: 90%;
   }
 
   .table-image {
