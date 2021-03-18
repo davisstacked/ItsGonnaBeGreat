@@ -110,6 +110,10 @@ span {
   height: 98vh;
 }
 
+.movie-poster {
+  display: flex;
+}
+
 .movie-poster-image {
   width: 25rem;
   height: 29rem;
@@ -282,13 +286,10 @@ figure {
 
 @media (max-width: 1000px) {
   .movie-poster-image {
-    height: 25%;
-    width: 90%;
+    height: 50vh;
+    width: auto;
   }
 
-  .table-image {
-    width: 100%;
-  }
   .screenplay {
     width: 95%;
   }
@@ -333,10 +334,16 @@ figure {
   }
 
   .table-image {
-    width: 90vw;
+    width: 70vw;
   }
 
   .kimber {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .table-image {
     width: 90vw;
   }
 }
