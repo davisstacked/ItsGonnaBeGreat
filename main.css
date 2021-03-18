@@ -60,7 +60,7 @@ span {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 10px;
+  padding: 10px 0 10px 0;
   background-color: hotpink;
 }
 
@@ -115,8 +115,8 @@ span {
 }
 
 .movie-poster-image {
-  /* width: 25rem;
-  height: 29rem; */
+  width: 25rem;
+  height: 29rem;
   border: 1px darkslategrey solid;
 } 
 
@@ -284,10 +284,13 @@ figure {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1100px) {
+  
+}
+
 @media (max-width: 1000px) {
   .movie-poster-image {
-    height: 50vh;
-    width: auto;
+    height: 70vh;
   }
 
   .screenplay {
