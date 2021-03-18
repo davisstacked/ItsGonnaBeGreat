@@ -131,10 +131,6 @@ box-shadow: 0px 3px 14px 1px #000000;
   margin: 2rem 0 2rem 0;
 }
 
-.movie-extras {
-  height: 24rem;
-}
-
 .yellow {
   background-color: yellow;
 }
@@ -283,13 +279,6 @@ figure {
   box-shadow: 0px 10px 13px -7px #000000, 7px 1px 14px 1px rgba(0,0,0,0.45);
 }
 
-.description {
-  display: flex;
-  justify-content: center;
-  border: 1px darkslategrey solid;
-  background-color: rgb(206, 209, 185);
-
-}
 
 .description p {
   font-family: 'Josefin Sans', sans-serif;
@@ -304,6 +293,10 @@ figure {
 }
 
 .description {
+  display: flex;
+  justify-content: center;
+  border: 1px darkslategrey solid;
+  background-color: rgb(206, 209, 185);
   margin: 2rem;
   display: flex;
   flex-direction: column;
@@ -312,6 +305,8 @@ figure {
   background-color: #fbfbf8;
   padding: 2rem;
   text-align: center;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 1px 14px 1px rgba(0,0,0,0.45); 
+  box-shadow: 0px 10px 13px -7px #000000, 7px 1px 14px 1px rgba(0,0,0,0.45);
 }
 
 .description p {
@@ -403,7 +398,7 @@ figure {
   } 
 
   .social-image {
-    width: 50vw;
+    width: 60vw;
   }
 
   .table-image {
