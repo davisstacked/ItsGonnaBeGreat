@@ -66,6 +66,7 @@ span {
 .movie-header {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%; 
   background-color: hotpink;
 }
@@ -124,14 +125,19 @@ span {
 .movie-poster {
   display: flex;
   justify-content: center;
-  height: 70vh;
+  align-items: center;
 }
 
 .movie-poster-image {
-  height: 100%;
+  height: 67vh;
   -webkit-box-shadow: 0px 3px 14px 1px #000000; 
 box-shadow: 0px 3px 14px 1px #000000;
 } 
+
+.character-image {
+  height: 50vh;
+  margin: 2rem 0 2rem 0;
+}
 
 .movie-extras {
   height: 24rem;
@@ -208,6 +214,12 @@ box-shadow: 0px 10px 13px -7px #000000, 7px 1px 14px 1px rgba(0,0,0,0.45);
 .project-header {
   font-family: 'Rock Salt', cursive;
   margin: 5rem;
+}
+
+/* ******************* CHARACTERS *******************/
+
+.character-image {
+
 }
 
 /* ABOUT */
@@ -302,7 +314,7 @@ figure {
   line-height: 2;
 }
 
-/* MEDIA QUERIES */
+/*********************** MEDIA QUERIES *************************/
 
 @media (max-width: 1000px) {
 
@@ -314,8 +326,10 @@ figure {
   }
 
   /* MOVIE */
-  .movie-poster {
-    height: 80vh;
+  .movie-poster-image {
+    height: auto;
+    width: 60vw;
+    
   }
 
   .project-poster {
@@ -332,21 +346,21 @@ figure {
   }
 
   .main-header {
-    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
+    padding-bottom: .5rem;
   }
 
   .movie-logline h3 {
-    line-height: 3rem;
+    line-height: 2.6rem;
   }
 
   .movie-logline-container {
     align-items: center;
-    margin: 0 auto;
+    margin-bottom: 1rem;
   }
 
   .movie-logline {
@@ -354,11 +368,23 @@ figure {
   }
 
   .good-logline {
-    margin: 1.5rem 0 1.5rem 0;
+    margin-top: .5rem;
   }
 
   .movie-romp {
     margin-top: 1.5rem;
+  }
+
+  /* CHARACTERS */
+
+  .character-image {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .character-image {
+    height: auto;
+    width: 60vw;
+    margin: 2rem 0 2rem 0;
   }
 
   /* ABOUT PAGE */
@@ -390,10 +416,28 @@ figure {
   .table-image {
     width: 90vw;
   }
+
+  .character-image {
+    width: 80vw;
+  }
 }
 
 @media (max-width: 450px) {
   .movie-poster-image {
     width: 90vw;
+    height: auto;
   }
+
+
+
+  .character-header {
+    height: 60vh;
+  }
+
+  /* .character-image {
+    height: auto;
+    margin: 0 1rem 0 1rem; 
+    width: 70vw;
+    padding: 0;
+  } */
 }
