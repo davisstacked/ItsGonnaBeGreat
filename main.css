@@ -312,6 +312,10 @@ figure {
     height: 80vh;
   }
 
+  .project-poster {
+    height: 60vh;
+  }
+
   .screenplay {
     width: 95%;
   }
