@@ -115,8 +115,8 @@ span {
 }
 
 .movie-poster-image {
-  width: 25rem;
-  height: 29rem;
+  /* width: 25rem;
+  height: 29rem; */
   border: 1px darkslategrey solid;
 } 
 
