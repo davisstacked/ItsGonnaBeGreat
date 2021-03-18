@@ -377,6 +377,10 @@ figure {
     width: 70vw;
   }
 
+  figcaption {
+    margin-top: .7rem;
+  }
+
   .kimber {
     width: 90vw;
   }
