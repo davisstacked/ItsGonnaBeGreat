@@ -7,8 +7,8 @@
 /* NAV */
 
 .navbar {
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 8px -4px 13px -4px rgba(0,0,0,0.45); 
-box-shadow: 0px 10px 13px -7px #000000, 8px -4px 13px -4px rgba(0,0,0,0.45);
+  -webkit-box-shadow: 5px 5px 15px -6px #000000; 
+box-shadow: 5px 5px 15px -6px #000000;
 }
 .navbar-brand {
   font-family: 'Rock Salt', cursive;
@@ -123,11 +123,12 @@ span {
 
 .movie-poster {
   display: flex;
+  justify-content: center;
+  height: 70vh;
 }
 
 .movie-poster-image {
-  width: 25rem;
-  height: 29rem;
+  height: 100%;
   -webkit-box-shadow: 0px 3px 14px 1px #000000; 
 box-shadow: 0px 3px 14px 1px #000000;
 } 
@@ -161,16 +162,16 @@ box-shadow: 0px 3px 14px 1px #000000;
   padding: 1rem 0 1rem 0;
   text-align:center;
   height: 100%;
-  /* padding: .2rem; */
-  border-radius: .5rem;
+  /*padding: .2rem;
+  */border-radius: .5rem;
   background-color: hotpink;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
   border: 1px darkslategrey solid;
-  -webkit-box-shadow: 0px 2px 15px -1px #000000; 
-box-shadow: 0px 2px 15px -1px #000000;
+  -webkit-box-shadow: 0px 2px 15px -1px #000000;
+  box-shadow: 0px 2px 15px -1px #000000;
 }
 
 .card {
@@ -297,21 +298,18 @@ figure {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1100px) {
-
-}
-
 @media (max-width: 1000px) {
 
   /* NAVBAR */
-.nav-link {
-
-}
+  .nav-link:hover {
+    background-color: white;
+    color: hotpink;
+    font-weight: bold;
+  }
 
   /* MOVIE */
-
-  .movie-poster-image {
-    height: 50vh;
+  .movie-poster {
+    height: 80vh;
   }
 
   .screenplay {
