@@ -35,18 +35,16 @@ box-shadow: 5px 5px 15px -6px #000000;
 .dropdown-item:hover {
   background-color: hotpink;
   color: white;
-  filter: drop-shadow(0 0 0.75rem crimson);
-  -webkit-filter: drop-shadow(0 0 0.75rem crimson);
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  transition: 500ms ease-in-out;
-  -webkit-transition: 500ms ease-in-out;
-  -moz-transition: 500ms ease-in-out;
-  -ms-transition: 500ms ease-in-out;
-  -o-transition: 500ms ease-in-out;
+  transition: 700ms ease-in-out;
+  -webkit-transition: 700ms ease-in-out;
+  -moz-transition: 700ms ease-in-out;
+  -ms-transition: 700ms ease-in-out;
+  -o-transition: 700ms ease-in-out;
 }
 
 span {
@@ -333,9 +331,9 @@ figure {
     
   }
 
-  .project-poster {
+  /* .project-poster {
     height: 60vh;
-  }
+  } */
 
   .screenplay {
     width: 95%;
