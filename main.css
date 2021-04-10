@@ -318,10 +318,9 @@ figure {
 @media (max-width: 1000px) {
 
   /* NAVBAR */
+
   .nav-link:hover {
     background-color: white;
-    color: hotpink;
-    font-weight: bold;
   }
 
   /* MOVIE */
